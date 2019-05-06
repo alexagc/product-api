@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  
+  app_product:
+    build: .
+    ports:
+      - '3002:3002'
+    links:
+      - mongo
+    environment:
+      - 'MONGODB_DOCKER_HOST=mongodb'
+
+  mongo:
+    container_name: mongodb
+    image: mongo
