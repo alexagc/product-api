@@ -10,6 +10,10 @@
 docker-compose up
 ```
 
+**Credentials**
+
+admin:supersecret
+
 **TODO**
 
 1. Better logger integration(winston)
