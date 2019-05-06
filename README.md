@@ -17,6 +17,8 @@ admin:supersecret
 **TODO**
 
 1. Better logger integration(winston)
-2. Better error handling
-3. Add api manager (kong) in front of service(centraliced security, rate-limit..)
-4. Test
+2. Data validation
+3. Better error handling
+4. Add api manager (kong) in front of service(centraliced security, rate-limit..)
+5. Test
+6. In microservice architecture use grpc
